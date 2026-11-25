@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-family: "Ubuntu", monospace;
+}
+.outor {
+    background-image: url("/движуха.jpg");
+    outline: 5pt solid #0000003f;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    height: 120pt;
+    padding: 20pt 30pt;
+    text-align: end;
+}
+.header h1{
+    border-bottom: #f1f1f11e solid 2px;
+    padding-bottom: 8pt;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.header h3{
+    border-bottom: #f1f1f117 solid 1px;
+    padding-bottom: 8pt;
+    letter-spacing: 4pt;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.flex_contrainer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex_contrainer .contacts {
+    flex-basis: 25%;
+    min-width: 300px;
+    width: 25%;
+    height: 100%;
+    background-color: #709277;
+    color: #f1f1f1f7;
+    padding-bottom: 30pt;
+}
+.flex_contrainer .contacts *{
+    margin: 10pt 15pt;
+}
+.flex_contrainer .contacts h3{
+    border-bottom: #f1f1f17f solid 2pt;
+    /* padding-bottom: 4pt; */
+}
+.flex_contrainer .contacts h4{
+    /* margin-top: 2pt; */
+    margin-bottom: 0;
+}
+.flex_contrainer .contacts p {
+    margin: 0 15pt;
+}
+.flex_contrainer .contacts .outor{
+    margin: auto;
+    margin-top: 30pt;
+    margin-bottom: 25pt;
+}
+
+.flex_contrainer .info {
+    width: auto;
+    height: 100%;
+    color: #1e1e1e;
+    margin: 5pt 20pt;
+}
+
+.flex_contrainer .info h3 {
+    border-bottom: #709277 solid 2pt;
+    padding-bottom: 4pt;
+}
+ul {
+    list-style-image: url("https://img.icons8.ru/ios/16/checked-checkbox--v1.png");
+    /* list-style-type: circle; */
+    list-style-position:outside;
+}
